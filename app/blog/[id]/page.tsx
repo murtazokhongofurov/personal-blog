@@ -249,3 +249,14 @@ export default function BlogPost({ params }: { params: { id: string } }) {
     </div>
   )
 }
+
+export async function generateStaticParams() {
+  // bu yerda barcha post id'larini ro'yxat qilib berasiz
+  // misol uchun:
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+  ]
+}
+
