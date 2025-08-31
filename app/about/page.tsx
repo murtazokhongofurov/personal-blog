@@ -1,18 +1,14 @@
 import { Code, Coffee, Music, Camera, BookOpen, Zap } from "lucide-react"
 
 const skills = [
-  "JavaScript/TypeScript",
-  "React/Next.js",
-  "Node.js",
-  "Python",
+  "Go",
   "Database Design",
-  "UI/UX Design",
-  "GraphQL",
+  "Gin/Fiber",
   "Docker",
   "AWS/Cloud Services",
   "Git/Version Control",
   "REST APIs",
-  "MongoDB/PostgreSQL",
+  "PostgreSQL",
 ]
 
 const interests = [
@@ -21,19 +17,16 @@ const interests = [
     title: "Open Source",
     description: "Contributing to open source projects and building tools for developers",
   },
-  { icon: Coffee, title: "Coffee Brewing", description: "Exploring different brewing methods and coffee origins" },
-  {
-    icon: Music,
-    title: "Music Production",
-    description: "Creating electronic music and experimenting with sound design",
-  },
-  { icon: Camera, title: "Photography", description: "Capturing moments and exploring creative composition" },
   {
     icon: BookOpen,
     title: "Reading",
     description: "Always learning through books on technology, philosophy, and science",
   },
-  { icon: Zap, title: "Innovation", description: "Staying curious about emerging technologies and their potential" },
+  { 
+    icon: Zap, 
+    title: "Innovation", 
+    description: "Staying curious about emerging technologies and their potential", 
+  },
 ]
 
 export default function About() {
@@ -76,22 +69,14 @@ export default function About() {
   dark:text-gray-300 text-gray-700"
             >
               <p>
-                Hello! I'm John, a passionate full-stack developer with over 6 years of experience building web
-                applications that make a difference. My journey into programming started during college when I built my
-                first website for a local business – seeing how technology could solve real-world problems sparked a
-                passion that continues to drive me today.
+                Hello! I'm Murtazo, a software engineer at Noor, based in Tashkent, Uzbekistan. 
+                I specialize in building reliable and efficient software solutions while continuously improving my skills in modern technologies.
               </p>
               <p>
-                I specialize in modern web technologies, with expertise in React, Next.js, Node.js, and cloud platforms.
-                I believe in writing clean, maintainable code and creating user experiences that are both beautiful and
-                functional. When I'm not coding, you'll find me sharing knowledge through content creation, speaking at
-                conferences, or contributing to open source projects.
+                Passionate about problem-solving and innovation, I enjoy working on projects that create value and make a positive impact. 
+                Outside of work, I stay curious, keep learning, and explore new ideas in the tech world.
               </p>
-              <p>
-                I'm always excited to take on new challenges and collaborate with teams that share my passion for
-                innovation and quality. Whether it's building scalable applications, mentoring junior developers, or
-                exploring the latest in web technology, I approach every project with curiosity and dedication.
-              </p>
+
             </div>
           </div>
         </div>

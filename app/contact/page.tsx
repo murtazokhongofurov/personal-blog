@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react"
+import { Mail, MapPin, Github, Linkedin, Instagram} from "lucide-react"
 import { useState } from "react"
 
 export default function Contact() {
@@ -189,24 +189,7 @@ export default function Contact() {
                       className="transition-colors duration-300
   dark:text-gray-400 text-gray-600"
                     >
-                      john.doe@example.com
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Phone className="w-5 h-5 text-purple-400" />
-                  <div>
-                    <div
-                      className="font-medium transition-colors duration-300
-  dark:text-white text-black"
-                    >
-                      Phone
-                    </div>
-                    <div
-                      className="transition-colors duration-300
-  dark:text-gray-400 text-gray-600"
-                    >
-                      +1 (555) 123-4567
+                      gofurovmurtazoxon@gmail.com
                     </div>
                   </div>
                 </div>
@@ -223,7 +206,7 @@ export default function Contact() {
                       className="transition-colors duration-300
   dark:text-gray-400 text-gray-600"
                     >
-                      San Francisco, CA
+                      Uzbekistan, Tashkent
                     </div>
                   </div>
                 </div>
@@ -244,7 +227,8 @@ export default function Contact() {
               </h2>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/murtazokhongofurov"
+                  target="_blank"
                   className="p-3 rounded-lg border transition-colors group
   dark:bg-gray-800 dark:border-gray-600 dark:hover:border-purple-500
   bg-gray-100 border-gray-300 hover:border-gray-400"
@@ -256,7 +240,8 @@ export default function Contact() {
                   />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/murtazokhon-gofurov"
+                  target="_blank"
                   className="p-3 rounded-lg border transition-colors group
   dark:bg-gray-800 dark:border-gray-600 dark:hover:border-purple-500
   bg-gray-100 border-gray-300 hover:border-gray-400"
@@ -268,12 +253,13 @@ export default function Contact() {
                   />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/gofurov_murtazo"
+                  target="_blank"
                   className="p-3 rounded-lg border transition-colors group
   dark:bg-gray-800 dark:border-gray-600 dark:hover:border-purple-500
   bg-gray-100 border-gray-300 hover:border-gray-400"
                 >
-                  <Twitter
+                  <Instagram
                     className="w-5 h-5 transition-colors
     dark:text-gray-400 dark:group-hover:text-purple-400
     text-gray-600 group-hover:text-gray-800"
