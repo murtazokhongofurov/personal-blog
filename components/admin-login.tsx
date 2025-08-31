@@ -42,7 +42,7 @@ export default function AdminLogin() {
           <p className="text-gray-600">Sign in to access the admin dashboard</p>
         </div>
 
-        {/* Demo Credentials Info */}
+        {/* Demo Credentials Info
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
           <h3 className="text-sm font-medium text-blue-800 mb-2">Demo Credentials:</h3>
           <div className="text-sm text-blue-700">
@@ -53,7 +53,7 @@ export default function AdminLogin() {
               <strong>Password:</strong> admin123
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Login Form */}
         <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-8">

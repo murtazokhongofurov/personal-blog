@@ -39,7 +39,7 @@ interface CodeBlock {
   code: string
 }
 
-const categories = ["Web Development", "Programming", "React", "Industry", "CSS", "Database"]
+const categories = ["Golang", "Insights"]
 const PROGRAMMING_LANGUAGES = [
   { value: "javascript", label: "JavaScript" },
   { value: "typescript", label: "TypeScript" },

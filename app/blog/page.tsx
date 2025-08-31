@@ -7,78 +7,43 @@ import Link from "next/link"
 const blogPosts = [
   {
     id: 1,
-    title: "Getting Started with Next.js 14 and App Router",
+    title: "#1 Golang kirish",
     excerpt:
-      "Learn how to build modern web applications with the latest Next.js features including App Router, Server Components, and more.",
+      "Go o’zi qanday til? Go statik, tez kompilyatsiya bo’ladigan, garbage collection ga ega, open source, cross platform, sintaksis jihatdan C tiliga o’xshab ketadigan dasturlash tili hisoblanadi.",
     author: "Gofurov",
-    date: "2024-01-15",
-    readTime: "8 min read",
-    category: "Web Development",
-    tags: ["Next.js", "React", "JavaScript"],
+    date: "2023-07-23",
+    readTime: "3 min read",
+    category: "Golang",
+    tags: ["Golang", "Google", "Go"],
     featured: true,
   },
   {
     id: 2,
-    title: "Mastering TypeScript: Advanced Patterns and Best Practices",
+    title: "#2 Golang birinchi dastur",
     excerpt:
-      "Dive deep into TypeScript's advanced features and learn how to write more maintainable and type-safe code.",
+      "Ananaga ko’ra dasturlash tillarini o’rganishdagi birinchi dastur “Salom dunyo” ya’ni “Hello World” deb nomlanadi. Bu oddiygina satrni consolga chop etadi.",
     author: "Gofurov",
-    date: "2024-01-10",
-    readTime: "12 min read",
-    category: "Programming",
-    tags: ["TypeScript", "JavaScript", "Programming"],
+    date: "2023-07-24",
+    readTime: "2 min read",
+    category: "Golang",
+    tags: ["Golang", "FirstProgram", "Hello"],
     featured: false,
   },
   {
     id: 3,
-    title: "Building Scalable React Applications: Architecture and Patterns",
+    title: "Microservice arxitekturasi || Microservice architecture",
     excerpt:
-      "Explore architectural patterns and best practices for building large-scale React applications that are maintainable and performant.",
+      "Microservice arxitekturasi eng yaxshi va eng foydali arxitekturalardan biri software dasturlar orasida.",
     author: "Gofurov",
-    date: "2024-01-05",
-    readTime: "15 min read",
-    category: "React",
-    tags: ["React", "Architecture", "Scalability"],
+    date: "2023-08-31",
+    readTime: "5 min read",
+    category: "Golang",
+    tags: ["Golang", "Microservices", "Monolith"],
     featured: true,
-  },
-  {
-    id: 4,
-    title: "The Future of Web Development: Trends to Watch in 2024",
-    excerpt: "Discover the emerging trends and technologies that will shape web development in 2024 and beyond.",
-    author: "Gofurov",
-    date: "2024-01-01",
-    readTime: "10 min read",
-    category: "Industry",
-    tags: ["Trends", "Web Development", "Future"],
-    featured: false,
-  },
-  {
-    id: 5,
-    title: "CSS Grid vs Flexbox: When to Use Which Layout Method",
-    excerpt:
-      "A comprehensive guide to understanding the differences between CSS Grid and Flexbox and when to use each layout method.",
-    author: "Gofurov",
-    date: "2023-12-28",
-    readTime: "7 min read",
-    category: "CSS",
-    tags: ["CSS", "Layout", "Grid", "Flexbox"],
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Database Design Principles for Modern Applications",
-    excerpt:
-      "Learn the fundamental principles of database design and how to structure your data for optimal performance and scalability.",
-    author: "Gofurov",
-    date: "2023-12-20",
-    readTime: "14 min read",
-    category: "Database",
-    tags: ["Database", "Design", "SQL", "Performance"],
-    featured: false,
   },
 ]
 
-const categories = ["All", "Web Development", "Programming", "React", "Industry", "CSS", "Database"]
+const categories = ["Golang", "Insights"]
 
 export default function Blog() {
   const [searchTerm, setSearchTerm] = useState("")
